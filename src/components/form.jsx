@@ -1,7 +1,7 @@
 // 入力フォームの実装
 import { useState } from "react";
 
-const App = () => {
+export const Form = () => {
   const [ serchKeyWord, setSerchKeyword] = useState("");
   
   return (
@@ -16,5 +16,3 @@ const App = () => {
     </div>
   )
 }
-
-export default App;

@@ -1,1 +1,3 @@
-export const SampleTemplate = () => <h1>Hello World</h1>;
+import { Form } from "../../components/Form"
+
+export const SampleTemplate = () => <Form />
