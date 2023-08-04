@@ -1,0 +1,1 @@
+export const SampleTemplate = () => <h1>Hello World</h1>;
