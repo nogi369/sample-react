@@ -2,7 +2,7 @@
 import { useState } from "react";
 
 export const Form = () => {
-  const [ serchKeyWord, setSerchKeyword] = useState("");
+  const [ serchKeyWord, setSerchKeyword ] = useState("");
   
   return (
     <div>
