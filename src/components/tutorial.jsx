@@ -1,1 +1,1 @@
-export const tutorial = (a, b) => a + b
+export const tutorial = (a, b) => a + b;

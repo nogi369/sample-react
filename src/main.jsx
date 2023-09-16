@@ -1,11 +1,13 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { EffectPage } from "./pages/effect";
 // import { SamplePage } from './Pages/sample'
-import { AppPage } from './Pages/app'
+// import { AppPage } from './Pages/app'
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     {/* <SamplePage /> */}
-    <AppPage />
+    {/* <AppPage /> */}
+    <EffectPage />
   </React.StrictMode>,
-)
+);
