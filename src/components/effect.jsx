@@ -1,8 +1,11 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import styles from "./style.module.css";
 
 export const Effect = () => {
   const [count, setCount] = useState(0);
+  useEffect(() => {
+    count === 0 ? console.log("0だぜ") : console.log("0以外だぜ");
+  }, [count]);
 
   return (
     <div className={styles.center}>
