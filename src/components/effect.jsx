@@ -6,6 +6,7 @@ export const Effect = () => {
   useEffect(() => {
     count === 0 ? console.log("0だぜ") : console.log("0以外だぜ");
   }, [count]);
+  console.log(count);
 
   return (
     <div className={styles.center}>
