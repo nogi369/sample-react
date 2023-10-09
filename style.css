@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+}
+
+.item_1 {
+  background-color: #f0d9da;
+}
+
+.item_2 {
+  background-color: #c8d9eb;
+}
+
+.item_3 {
+  background-color: #ecf2f9;
+}
